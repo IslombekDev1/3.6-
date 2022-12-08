@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+/* .class{
+  background-color: purple;
+  color: white;
+
+} */
+
+.burger-menu-box{
+  display: flex;
+  gap: 35px;
+  height: 100vh;
+}
+
+#burgerItems{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 8vh;
+  margin-left: -6%;
+  border-right-style: solid;
+  border-right-color: #E5E1E6;
+  border-right-width: 25px;
+  background-color: #5231ED;
+  transition: 2s;
+}
+
+#burgerItems li{
+  width: 100%;
+  padding: 10px 0;
+}
+
+.qrcodeItem{
+  display: none;
+}
+
+#qrcode::before{
+  content: "";
+  width: 3.5px;
+  height: 79px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 17.5%;
+  background-color: white;
+}
+
+#burgerItems a{
+  display: inline-block;
+  color: #fff;
+  padding:0 30px;
+  cursor: alias;
+}
+
+#burgerItems i{
+  font-size: 39px;
+}
+
+#burgerItems li:hover{
+  border-radius: 16%;
+  background-color: rgba(255, 255, 255, 0.416);
+}
+
+.burger-items2{
+  padding-top: 18px;
+}
+
+.burger-items2 i{
+  font-size: 35px;
+}
+
+#burgerMenu{
+  cursor: pointer;
+  color:#5231ED
+} 
+
+#xmark{
+  display: none;
+  cursor: pointer;
+  color:#5231ED
+  
+}
+
+.main-item{
+  margin-top: 20px;
+  font-size: 30px;
+}
