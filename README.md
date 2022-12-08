@@ -1,3 +1,5 @@
 # SELECTORS | STYLE | FUNCTION
 
-`3.6 js`
+`слева появляется меню`
+`menu appears on the left`
+`menyu chap tomonda paydo bo'ladi`
