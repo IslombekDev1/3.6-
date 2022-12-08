@@ -102,9 +102,3 @@ xmark.addEventListener("click", () =>{
     burgerMenu.style = "display:inline"
   }
 })
-
-burgerMenu.addEventListener("click", () => {
-  if (qor.style = "autoplay") {
-    qor.style = "autoplay"
-  }
-})
