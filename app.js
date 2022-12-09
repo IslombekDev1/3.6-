@@ -53,7 +53,7 @@
                       //Homework
 // const burgerItems = document.querySelector(".burgerItems")
 
-// savol: if else faqat idini oladimi, ya'ni if(id) yozsa bo'ladimi?
+// savol: if else faqat id.ini oladimi, ya'ni if(id) yozsa bo'ladimi?
 burgerMenu.addEventListener("click", () =>{
   if (burgerItems.style = "margin-left: -6%; border: solid;") {
     burgerItems.style = "margin-left: 0.1px; border: none;"
